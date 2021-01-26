@@ -1,0 +1,94 @@
+@relation 'D1-Este'
+
+@attribute P01 {Satisfactorio,Insipiente,Ninguno}
+@attribute P02 {Satisfactorio,Insipiente,Ninguno}
+@attribute P03 {Mucho,Poco}
+@attribute P04 {Regular,Suficiente,Insipiente}
+@attribute P05 {Suficiente,Insipiente,Regular}
+@attribute P06 {Suficiente,Insipiente,Regular}
+@attribute P07 {Insipiente,Satisfactorio,Ninguno}
+@attribute P08 {Mucho,Poco,Nada}
+@attribute P09 numeric
+@attribute P10 numeric
+@attribute P11 numeric
+@attribute P12 numeric
+@attribute P13 numeric
+@attribute P14 numeric
+@attribute P15 numeric
+@attribute P16 {Mucho,Poco}
+@attribute P18 {Si,No}
+@attribute P19 {Conceptual,Procedimental}
+@attribute P17 {Sí,'Más o menos'}
+
+@data
+Satisfactorio,Insipiente,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,8,6,8,7,5,6,7,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,8,8,10,9,8,8,8,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,9,7,8,10,10,10,9,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,10,9,9,10,9,10,10,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Poco,9,9,10,9,9,10,10,Mucho,Si,Conceptual,Sí
+Insipiente,Insipiente,Mucho,Regular,Regular,Insipiente,Insipiente,Poco,5,3,6,5,6,6,6,Poco,Si,Procedimental,'Más o menos'
+Insipiente,Insipiente,Mucho,Suficiente,Regular,Regular,Insipiente,Poco,8,8,7,9,9,9,8,Mucho,Si,Procedimental,'Más o menos'
+Insipiente,Insipiente,Poco,Suficiente,Regular,Regular,Insipiente,Mucho,8,6,8,10,10,9,9,Poco,Si,Conceptual,'Más o menos'
+Insipiente,Satisfactorio,Mucho,Suficiente,Regular,Regular,Insipiente,Mucho,10,9,10,10,9,9,9,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Regular,Suficiente,Suficiente,Satisfactorio,Mucho,8,7,8,8,8,6,8,Mucho,Si,Conceptual,Sí
+Satisfactorio,Insipiente,Mucho,Suficiente,Regular,Regular,Insipiente,Mucho,8,7,8,9,10,10,9,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Regular,Suficiente,Suficiente,Insipiente,Mucho,8,4,10,9,7,7,7,Mucho,Si,Conceptual,Sí
+Insipiente,Ninguno,Mucho,Suficiente,Regular,Regular,Ninguno,Poco,8,8,7,10,10,10,9,Mucho,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Poco,Regular,Regular,Regular,Insipiente,Poco,2,0,3,3,6,7,5,Mucho,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Poco,Regular,Regular,Regular,Satisfactorio,Mucho,10,8,10,9,9,10,10,Mucho,Si,Conceptual,Sí
+Insipiente,Insipiente,Poco,Regular,Regular,Regular,Ninguno,Poco,5,5,8,7,7,7,7,Poco,Si,Conceptual,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Insipiente,Regular,Insipiente,Mucho,8,7,7,9,9,9,8,Poco,No,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Insipiente,Mucho,10,8,10,8,8,8,10,Mucho,No,Procedimental,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Suficiente,Satisfactorio,Mucho,9,9,10,10,9,10,8,Mucho,Si,Procedimental,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,9,9,9,8,8,10,10,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,10,8,10,9,10,10,10,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,10,5,10,10,10,10,7,Mucho,Si,Procedimental,Sí
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,7,6,8,7,9,9,9,Mucho,Si,Conceptual,Sí
+Insipiente,Insipiente,Poco,Regular,Regular,Regular,Insipiente,Poco,10,6,10,10,10,10,10,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Insipiente,Poco,Suficiente,Regular,Regular,Satisfactorio,Poco,7,6,6,8,7,7,6,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Insipiente,Mucho,7,4,8,6,5,4,5,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,9,5,9,7,7,7,9,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,8,4,8,8,7,7,7,Mucho,Si,Procedimental,Sí
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Ninguno,Mucho,4,4,6,6,6,7,7,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Suficiente,Suficiente,Suficiente,Insipiente,Mucho,9,8,10,9,9,9,10,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Regular,Regular,Suficiente,Insipiente,Mucho,8,8,10,8,9,10,10,Poco,No,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Suficiente,Insipiente,Mucho,10,10,10,10,10,10,10,Poco,Si,Conceptual,'Más o menos'
+Insipiente,Satisfactorio,Mucho,Suficiente,Regular,Suficiente,Satisfactorio,Poco,8,8,9,9,9,9,8,Mucho,Si,Procedimental,'Más o menos'
+Insipiente,Insipiente,Poco,Regular,Regular,Regular,Insipiente,Mucho,8,7,9,9,9,9,8,Mucho,No,Procedimental,'Más o menos'
+Insipiente,Ninguno,Mucho,Regular,Regular,Regular,Insipiente,Mucho,9,8,10,9,10,10,10,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Regular,Suficiente,Suficiente,Satisfactorio,Mucho,9,7,8,9,9,9,7,Mucho,Si,Conceptual,Sí
+Ninguno,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,6,6,7,5,6,7,6,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,8,8,10,9,9,9,9,Mucho,Si,Procedimental,Sí
+Satisfactorio,Insipiente,Mucho,Suficiente,Suficiente,Regular,Satisfactorio,Mucho,10,8,10,10,10,10,10,Mucho,Si,Procedimental,Sí
+Insipiente,Insipiente,Mucho,Regular,Suficiente,Suficiente,Insipiente,Mucho,8,8,9,9,8,8,7,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Regular,Insipiente,Regular,Insipiente,Mucho,9,8,9,10,9,10,10,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,6,5,10,7,7,7,6,Mucho,Si,Conceptual,Sí
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,10,7,8,9,9,8,8,Mucho,Si,Conceptual,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Poco,8,7,9,8,8,8,8,Poco,No,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Insipiente,Mucho,8,10,10,10,10,10,10,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Poco,Regular,Regular,Regular,Satisfactorio,Mucho,8,7,9,8,8,8,7,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Insipiente,Poco,9,8,10,8,8,8,9,Mucho,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Regular,Regular,Regular,Satisfactorio,Mucho,8,9,9,9,9,9,9,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,10,9,10,9,9,10,10,Mucho,Si,Conceptual,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Suficiente,Suficiente,Satisfactorio,Mucho,9,9,9,9,9,9,9,Mucho,Si,Procedimental,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,7,7,7,8,8,8,8,Mucho,No,Conceptual,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,10,9,9,10,9,9,9,Poco,Si,Procedimental,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Regular,Satisfactorio,Mucho,9,8,9,10,10,10,10,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,10,10,10,10,10,10,10,Mucho,Si,Procedimental,Sí
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,7,6,7,7,6,7,6,Poco,No,Procedimental,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Insipiente,Mucho,10,8,10,10,10,10,10,Mucho,Si,Procedimental,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Regular,Regular,Suficiente,Satisfactorio,Mucho,8,6,10,8,10,9,8,Poco,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Satisfactorio,Mucho,10,10,10,10,10,10,9,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Regular,Suficiente,Suficiente,Satisfactorio,Poco,9,9,9,10,10,9,9,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Mucho,Regular,Insipiente,Insipiente,Insipiente,Mucho,10,7,8,10,10,10,10,Mucho,Si,Conceptual,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,10,9,9,8,9,9,8,Poco,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Suficiente,Suficiente,Insipiente,Mucho,9,8,9,9,9,9,9,Mucho,No,Procedimental,'Más o menos'
+Insipiente,Insipiente,Poco,Suficiente,Regular,Regular,Insipiente,Mucho,8,7,8,9,9,9,9,Poco,Si,Procedimental,Sí
+Satisfactorio,Insipiente,Mucho,Regular,Regular,Suficiente,Satisfactorio,Mucho,9,8,9,9,9,9,9,Mucho,Si,Procedimental,Sí
+Satisfactorio,Insipiente,Mucho,Suficiente,Suficiente,Regular,Insipiente,Mucho,9,8,8,8,7,9,8,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Mucho,Suficiente,Regular,Regular,Satisfactorio,Mucho,7,5,9,8,9,9,8,Mucho,Si,Procedimental,Sí
+Satisfactorio,Satisfactorio,Poco,Suficiente,Suficiente,Suficiente,Satisfactorio,Poco,9,7,9,8,8,8,8,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Satisfactorio,Poco,Regular,Regular,Regular,Satisfactorio,Poco,9,7,9,9,8,9,9,Poco,Si,Conceptual,'Más o menos'
+Satisfactorio,Insipiente,Mucho,Regular,Regular,Suficiente,Insipiente,Mucho,8,8,8,8,9,9,9,Mucho,No,Procedimental,'Más o menos'
+Insipiente,Insipiente,Poco,Regular,Regular,Regular,Ninguno,Poco,5,4,6,5,4,4,5,Poco,No,Conceptual,'Más o menos'
+Insipiente,Insipiente,Mucho,Regular,Regular,Regular,Insipiente,Mucho,5,4,5,5,5,5,5,Poco,Si,Conceptual,'Más o menos'

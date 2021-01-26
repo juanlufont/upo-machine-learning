@@ -6,7 +6,6 @@ This README would normally document whatever steps are necessary to get your app
 
 * Quick summary
 * Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
@@ -17,13 +16,24 @@ This README would normally document whatever steps are necessary to get your app
 * How to run tests
 * Deployment instructions
 
-### Contribution guidelines ###
+# Running Jupyter lab in a container
 
-* Writing tests
-* Code review
-* Other guidelines
+Creating the container
+```
+docker run \
+    -it --name jupyterlab-test \
+    -p 8888:8888 \
+    -v "$PWD":/home/jovyan/work \
+    jupyter/datascience-notebook start.sh jupyter lab
+```
 
-### Who do I talk to? ###
+Starting an already existing container
+```
+# -a attach stdout
+docker start -a jupyterlab-test
+```
 
-* Repo owner or admin
-* Other community or team contact
+If you do not remember access token, look into the logs:
+```
+docker logs jupyterlab-test
+```
