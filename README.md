@@ -37,3 +37,12 @@ If you do not remember access token, look into the logs:
 ```
 docker logs jupyterlab-test
 ```
+
+
+## Config
+
+```
+docker exec -u 0 -it jupyter-ml /bin/bash
+apt update
+apt install openjdk-14-jdk
+```

@@ -3,7 +3,7 @@
 include jupyterlab.env
 export
 
-.PHONY: run run_daemon stop start logs rm check_rm purge login
+.PHONY: run config stop start logs rm check_rm purge login
 
 run:
 	mkdir -p $(shell pwd)/.jupyter
@@ -14,6 +14,11 @@ run:
 		-v $(shell pwd)/notebook:/home/jovyan/work \
 		-v $(shell pwd)/.jupyter:/home/jovyan/.jupyter \
 		$(DOCKER_IMAGE) start.sh jupyter lab
+
+config:
+	docker exec \
+		-it $(DOCKER_CONTAINER_NAME) \
+		/opt/conda/bin/conda install -y -c r r-fselector
 
 stop:
 	docker stop $(DOCKER_CONTAINER_NAME)
