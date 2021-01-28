@@ -13,12 +13,12 @@ run:
 		-p $(CONT_PORT):$(HOST_PORT) \
 		-v $(shell pwd)/notebook:/home/jovyan/work \
 		-v $(shell pwd)/.jupyter:/home/jovyan/.jupyter \
-		$(DOCKER_IMAGE) start.sh jupyter lab
+		$(DOCKER_IMAGE) start.sh jupyter notebook 
 
 config:
 	docker exec \
 		-it $(DOCKER_CONTAINER_NAME) \
-		/opt/conda/bin/conda install -y -c r r-fselector
+		/opt/conda/bin/conda install -y -c r r-fselector r-rweka
 
 stop:
 	docker stop $(DOCKER_CONTAINER_NAME)
