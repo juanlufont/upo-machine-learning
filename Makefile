@@ -7,13 +7,13 @@ export
 
 run:
 	mkdir -p $(shell pwd)/.jupyter
-	mkdir -p $(shell pwd)/work
+	mkdir -p $(shell pwd)/notebook
 	docker run \
 		-it --name $(DOCKER_CONTAINER_NAME) \
 		-p $(CONT_PORT):$(HOST_PORT) \
 		-v $(shell pwd)/notebook:/home/jovyan/work \
 		-v $(shell pwd)/.jupyter:/home/jovyan/.jupyter \
-		$(DOCKER_IMAGE) start.sh jupyter notebook 
+		$(DOCKER_IMAGE) start.sh jupyter notebook
 
 config:
 	docker exec \
