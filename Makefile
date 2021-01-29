@@ -18,7 +18,7 @@ run:
 config:
 	docker exec \
 		-it $(DOCKER_CONTAINER_NAME) \
-		/opt/conda/bin/conda install -y -c r r-fselector r-rweka
+		/opt/conda/bin/conda install -y -c r r-fselector r-rweka r-e1071 r-C50
 
 stop:
 	docker stop $(DOCKER_CONTAINER_NAME)
