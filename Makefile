@@ -19,6 +19,16 @@ config:
 	docker exec \
 		-it $(DOCKER_CONTAINER_NAME) \
 		/opt/conda/bin/conda install -y -c r r-fselector r-rweka r-e1071 r-C50 r-microbenchmark
+	# # spell checking
+	# docker exec \
+	# 	-it $(DOCKER_CONTAINER_NAME) \
+	# 	/opt/conda/bin/conda install -y -c conda-forge jupyter_contrib_nbextensions
+	# docker exec \
+	# 	-it $(DOCKER_CONTAINER_NAME) \
+	# 	/opt/conda/bin/jupyter contrib nbextension install --user
+	# docker exec \
+	# 	-it $(DOCKER_CONTAINER_NAME) \
+	# 	/opt/conda/bin/jupyter nbextension enable spellchecker/main
 
 stop:
 	docker stop $(DOCKER_CONTAINER_NAME)
